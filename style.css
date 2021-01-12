@@ -16,3 +16,8 @@ main{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
 }
+.text_allign{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
