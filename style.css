@@ -12,7 +12,7 @@ main{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
 }
-.text_allign{
+.text_align{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -22,6 +22,27 @@ main{
 .sub_container{
     display:grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     height: 100vh
+}
+
+.github_grid_align{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center
+}
+
+.linkdin_grid_align{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center
+}
+
+.github_grid_align{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center
 }
