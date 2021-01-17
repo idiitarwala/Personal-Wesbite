@@ -1,28 +1,28 @@
-body{
-    height: 100vh;
-    background: linear-gradient(-45deg, #ff6a00, #ee0979 );
-    background-size: 400% 400%;
-    animation: rgb 7s ease-in-out infinite; 
+body {
+  height: 100vh;
+  background: linear-gradient(-45deg, #1488cc, #2b32b2);
+  background-size: 200% 200%;
+  animation: rgb 7s ease-in-out infinite;
 }
 
-.button_margin{
-    margin: 20px;
+.button_margin {
+  margin: 20px;
 }
 
 svg:hover {
-    fill: #12D8FA;
-    transition: fill 0.5s ease-out ;
-    cursor: pointer;
+  fill: #12d8fa;
+  transition: fill 0.5s ease-out;
+  cursor: pointer;
 }
 
-@keyframes rgb{
-    0%{
-        background-position: 0% 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0% 50%;
-    }
+@keyframes rgb {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
