@@ -1,7 +1,7 @@
-main{
+body{
     height: 100vh;
     background: linear-gradient(-45deg, #ff6a00, #ee0979 );
-    background-size: 200% 200%;
+    background-size: 400% 400%;
     animation: rgb 7s ease-in-out infinite; 
 }
 
